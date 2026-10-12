@@ -27,4 +27,4 @@ def main():
         print(f"Translation error: {e}", file=sys.stderr)
         sys.exit(1)
 
-    print(str(result))
+    print(str(result) + "\n")
